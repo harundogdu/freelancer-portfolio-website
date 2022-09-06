@@ -214,7 +214,10 @@ header .subtitle {
   margin-top: 0.6rem;
 }
 
-section.portfolio h3.portfolio-title {
+section.portfolio .container {
+  margin-bottom: 5rem;
+}
+section.portfolio .container h3.portfolio-title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,19 +230,19 @@ section.portfolio h3.portfolio-title {
   padding: 0;
   margin-top: 5vh;
 }
-section.portfolio .row-1 {
+section.portfolio .container .row-1 {
   width: 100%;
   height: 35vh;
   margin-top: 5rem;
   padding: 0 5%;
 }
-section.portfolio .row-1 .col-1 {
+section.portfolio .container .row-1 .col-1 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
-section.portfolio .row-1 .col-1 .card-1 {
+section.portfolio .container .row-1 .col-1 .card-1 {
   position: relative;
   width: 400px;
   height: 289px;
@@ -247,13 +250,13 @@ section.portfolio .row-1 .col-1 .card-1 {
   -o-object-fit: cover;
      object-fit: cover;
 }
-section.portfolio .row-1 .col-1 .card-1 img {
+section.portfolio .container .row-1 .col-1 .card-1 img {
   position: relative;
   width: 400px;
   height: 289px;
   border-radius: 3%;
 }
-section.portfolio .row-1 .col-1 .card-1 .overlay {
+section.portfolio .container .row-1 .col-1 .card-1 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -265,7 +268,7 @@ section.portfolio .row-1 .col-1 .card-1 .overlay {
   transition: 0.5s ease;
   background-color: #1abc9c;
 }
-section.portfolio .row-1 .col-1 .card-1 .overlay p {
+section.portfolio .container .row-1 .col-1 .card-1 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,10 +278,10 @@ section.portfolio .row-1 .col-1 .card-1 .overlay p {
   height: 289px;
   font-size: 5rem;
 }
-section.portfolio .row-1 .col-1 .card-1:hover .overlay {
+section.portfolio .container .row-1 .col-1 .card-1:hover .overlay {
   opacity: 0.8;
 }
-section.portfolio .row-1 .col-1 .card-2 {
+section.portfolio .container .row-1 .col-1 .card-2 {
   position: relative;
   width: 400px;
   height: 289px;
@@ -286,13 +289,13 @@ section.portfolio .row-1 .col-1 .card-2 {
   -o-object-fit: cover;
      object-fit: cover;
 }
-section.portfolio .row-1 .col-1 .card-2 img {
+section.portfolio .container .row-1 .col-1 .card-2 img {
   position: relative;
   width: 400px;
   height: 289px;
   border-radius: 3%;
 }
-section.portfolio .row-1 .col-1 .card-2 .overlay {
+section.portfolio .container .row-1 .col-1 .card-2 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -304,7 +307,7 @@ section.portfolio .row-1 .col-1 .card-2 .overlay {
   transition: 0.5s ease;
   background-color: #1abc9c;
 }
-section.portfolio .row-1 .col-1 .card-2 .overlay p {
+section.portfolio .container .row-1 .col-1 .card-2 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -314,10 +317,10 @@ section.portfolio .row-1 .col-1 .card-2 .overlay p {
   height: 289px;
   font-size: 5rem;
 }
-section.portfolio .row-1 .col-1 .card-2:hover .overlay {
+section.portfolio .container .row-1 .col-1 .card-2:hover .overlay {
   opacity: 0.8;
 }
-section.portfolio .row-1 .col-1 .card-3 {
+section.portfolio .container .row-1 .col-1 .card-3 {
   position: relative;
   width: 400px;
   height: 289px;
@@ -325,13 +328,13 @@ section.portfolio .row-1 .col-1 .card-3 {
   -o-object-fit: cover;
      object-fit: cover;
 }
-section.portfolio .row-1 .col-1 .card-3 img {
+section.portfolio .container .row-1 .col-1 .card-3 img {
   position: relative;
   width: 400px;
   height: 289px;
   border-radius: 3%;
 }
-section.portfolio .row-1 .col-1 .card-3 .overlay {
+section.portfolio .container .row-1 .col-1 .card-3 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -343,7 +346,7 @@ section.portfolio .row-1 .col-1 .card-3 .overlay {
   transition: 0.5s ease;
   background-color: #1abc9c;
 }
-section.portfolio .row-1 .col-1 .card-3 .overlay p {
+section.portfolio .container .row-1 .col-1 .card-3 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -353,22 +356,22 @@ section.portfolio .row-1 .col-1 .card-3 .overlay p {
   height: 289px;
   font-size: 5rem;
 }
-section.portfolio .row-1 .col-1 .card-3:hover .overlay {
+section.portfolio .container .row-1 .col-1 .card-3:hover .overlay {
   opacity: 0.8;
 }
-section.portfolio .row-2 {
+section.portfolio .container .row-2 {
   width: 100%;
   height: 35vh;
   margin-top: 0.8rem;
   padding: 0 5%;
 }
-section.portfolio .row-2 .col-2 {
+section.portfolio .container .row-2 .col-2 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
-section.portfolio .row-2 .col-2 .card-4 {
+section.portfolio .container .row-2 .col-2 .card-4 {
   position: relative;
   width: 400px;
   height: 289px;
@@ -376,13 +379,13 @@ section.portfolio .row-2 .col-2 .card-4 {
   -o-object-fit: cover;
      object-fit: cover;
 }
-section.portfolio .row-2 .col-2 .card-4 img {
+section.portfolio .container .row-2 .col-2 .card-4 img {
   position: relative;
   width: 400px;
   height: 289px;
   border-radius: 3%;
 }
-section.portfolio .row-2 .col-2 .card-4 .overlay {
+section.portfolio .container .row-2 .col-2 .card-4 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -394,7 +397,7 @@ section.portfolio .row-2 .col-2 .card-4 .overlay {
   transition: 0.5s ease;
   background-color: #1abc9c;
 }
-section.portfolio .row-2 .col-2 .card-4 .overlay p {
+section.portfolio .container .row-2 .col-2 .card-4 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -404,10 +407,10 @@ section.portfolio .row-2 .col-2 .card-4 .overlay p {
   height: 289px;
   font-size: 5rem;
 }
-section.portfolio .row-2 .col-2 .card-4:hover .overlay {
+section.portfolio .container .row-2 .col-2 .card-4:hover .overlay {
   opacity: 0.8;
 }
-section.portfolio .row-2 .col-2 .card-5 {
+section.portfolio .container .row-2 .col-2 .card-5 {
   position: relative;
   width: 400px;
   height: 289px;
@@ -415,13 +418,13 @@ section.portfolio .row-2 .col-2 .card-5 {
   -o-object-fit: cover;
      object-fit: cover;
 }
-section.portfolio .row-2 .col-2 .card-5 img {
+section.portfolio .container .row-2 .col-2 .card-5 img {
   position: relative;
   width: 400px;
   height: 289px;
   border-radius: 3%;
 }
-section.portfolio .row-2 .col-2 .card-5 .overlay {
+section.portfolio .container .row-2 .col-2 .card-5 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -433,7 +436,7 @@ section.portfolio .row-2 .col-2 .card-5 .overlay {
   transition: 0.5s ease;
   background-color: #1abc9c;
 }
-section.portfolio .row-2 .col-2 .card-5 .overlay p {
+section.portfolio .container .row-2 .col-2 .card-5 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -443,10 +446,10 @@ section.portfolio .row-2 .col-2 .card-5 .overlay p {
   height: 289px;
   font-size: 5rem;
 }
-section.portfolio .row-2 .col-2 .card-5:hover .overlay {
+section.portfolio .container .row-2 .col-2 .card-5:hover .overlay {
   opacity: 0.8;
 }
-section.portfolio .row-2 .col-2 .card-6 {
+section.portfolio .container .row-2 .col-2 .card-6 {
   position: relative;
   width: 400px;
   height: 289px;
@@ -454,13 +457,13 @@ section.portfolio .row-2 .col-2 .card-6 {
   -o-object-fit: cover;
      object-fit: cover;
 }
-section.portfolio .row-2 .col-2 .card-6 img {
+section.portfolio .container .row-2 .col-2 .card-6 img {
   position: relative;
   width: 400px;
   height: 289px;
   border-radius: 3%;
 }
-section.portfolio .row-2 .col-2 .card-6 .overlay {
+section.portfolio .container .row-2 .col-2 .card-6 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -472,7 +475,7 @@ section.portfolio .row-2 .col-2 .card-6 .overlay {
   transition: 0.5s ease;
   background-color: #1abc9c;
 }
-section.portfolio .row-2 .col-2 .card-6 .overlay p {
+section.portfolio .container .row-2 .col-2 .card-6 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -482,6 +485,22 @@ section.portfolio .row-2 .col-2 .card-6 .overlay p {
   height: 289px;
   font-size: 5rem;
 }
-section.portfolio .row-2 .col-2 .card-6:hover .overlay {
+section.portfolio .container .row-2 .col-2 .card-6:hover .overlay {
   opacity: 0.8;
+}
+
+section.about .container {
+  background-color: #1abc9c;
+  width: 100%;
+  height: 65vh;
+}
+
+section.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  background-color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

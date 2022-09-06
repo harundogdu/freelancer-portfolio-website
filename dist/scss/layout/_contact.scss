@@ -1,0 +1,6 @@
+section.contact {
+  @include flex($direction: column);
+  width: 100%;
+  height: 70vh;
+  background-color: $white;
+}
