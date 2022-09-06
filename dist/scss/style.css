@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -193,6 +197,11 @@ nav ul li a {
   font-weight: 600;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+  padding: 10px 20px;
+  transition: all linear 0.2s;
+}
+nav ul li.active a {
+  background-color: #1abc9c;
 }
 
 header {

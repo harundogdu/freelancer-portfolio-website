@@ -24,6 +24,12 @@ nav {
       font-weight: $semiBold;
       letter-spacing: 0.1rem;
       text-transform: uppercase;
+      padding: 10px 20px;
+      transition: all linear 0.2s;
+    }
+
+    li.active a{
+      background-color: $green;
     }
   }
 }
