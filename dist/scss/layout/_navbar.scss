@@ -1,0 +1,26 @@
+nav {
+  @include container;
+  @include flex(space-between);
+  background-color: $light-black;
+  position: relative;
+  height: 100px;
+  .brand-logo {
+    font-size: 2rem;
+    color: $white;
+    font-weight: $bold;
+    margin-left: 15rem;
+  }
+  ul {
+    @include flex;
+    position: relative;
+    column-gap: 25px;
+    margin-right: 20rem;
+    li a {
+      color: $white;
+      font-size: 1rem;
+      font-weight: $semiBold;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+    }
+  }
+}
