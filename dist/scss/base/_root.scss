@@ -9,3 +9,11 @@
 body {
   font-family: "Poppins", sans-serif !important;
 }
+
+.coloring {
+  a {
+    background-color: $green;
+    color: $white;
+    border-radius: 5%;
+  }
+}

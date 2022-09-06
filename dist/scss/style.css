@@ -10,6 +10,12 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+.coloring a {
+  background-color: #1abc9c;
+  color: #ffffff;
+  border-radius: 5%;
+}
+
 html,
 body,
 div,
@@ -155,8 +161,10 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  position: fixed;
+  top: 0;
   background-color: rgb(44, 62, 80);
-  position: relative;
+  z-index: 9999;
   height: 100px;
 }
 nav .brand-logo {
